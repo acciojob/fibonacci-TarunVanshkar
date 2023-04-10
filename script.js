@@ -15,6 +15,7 @@ function fibonacci(num) {
 			c=a+b;
 			a=b;
 			b=c;
+			count++;
 		}
 	return c;
 }
